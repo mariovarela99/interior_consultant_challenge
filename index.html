@@ -8,7 +8,7 @@
   maximum-scale=5"
     />
 
-    <link rel="icon" href="devchallenges.png" />
+    <link rel="icon" href="./assets/images/devchallenges.png" />
 
     <link
       rel="shortcut icon"
@@ -21,75 +21,56 @@
       rel="stylesheet"
     />
 
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
+    <title>Interior Consultant Challenge</title>
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
+    <div id="root">
+      <header class="main-header">
+        <h4>This Interior</h4>
+        <nav class="main-header-nav">
+          <ul>
+            <li><a href="#"> Home </a></li>
+            <li><a href="#"> Collection </a></li>
+            <li><a href="#"> About </a></li>
+            <li><a href="#"> Contact </a></li>
+          </ul>
+        </nav>
+      </header>
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
+      <main class="main-main">
+        <section class="main-section">
+          <div>
+            <h2>Modern interior</h2>
+            <p>
+              A full-Service residential & commercial interior design and
+              staging company offering professional organizing & eco-services.
+            </p>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
+            <a href="#"> Read More </a>
+          </div>
+          <div>
+            <div>
+              <img src="./assets/images/photo1.png" alt="" />
+              <article>
+                <div>
+                  <img src="./assets/images/photo2.png" alt="" />
+                  <div>
+                    <strong>Aliza Webber</strong>
+                    <span>Interior designer</span>
+                  </div>
+                </div>
+
+                <h3>Designed in 2020 by Aliza Webber</h3>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="main-footer">
+        <p>created by mariovarela99 - devChallenges.io</p>
+      </footer>
     </div>
   </body>
 </html>
