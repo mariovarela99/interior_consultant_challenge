@@ -12,3 +12,190 @@ html {
   margin: 0;
   padding: 0;
 }
+
+div#root {
+  width: 100%;
+  padding: 15px 5%;
+
+  header.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    h4 {
+      width: 115px;
+      height: 32px;
+      border: 1px solid #ffffff;
+      color: #ffffff;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: 15.56px;
+      font-family: "Crimson Pro";
+      text-transform: uppercase;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    nav {
+      display: flex;
+
+      ul {
+        display: flex;
+        list-style: none;
+
+        li {
+          padding: 3px;
+          margin: auto 26px;
+
+          :last-child {
+            margin-right: 0;
+            padding-right: 0;
+          }
+
+          a {
+            font-weight: 500;
+            text-decoration: none;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 21.94px;
+            color: #f7f7f7;
+          }
+        }
+      }
+    }
+  }
+
+  main.main-main {
+    display: flex;
+    width: 100%;
+
+    section.main-section {
+      display: flex;
+      align-items: center;
+      padding-top: 12%;
+      padding-bottom: 12%;
+
+      div#card1 {
+        width: 35%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+
+        h2 {
+          font-size: 48px;
+          font-style: normal;
+          font-weight: 500;
+          font-family: "Lora";
+          line-height: 61.44px;
+          color: #ffffff;
+        }
+
+        p {
+          font-style: normal;
+          font-size: 24px;
+          line-height: 29.26px;
+          font-weight: 400;
+          font-family: Montserrat;
+          color: #ffffff;
+        }
+
+        a {
+          font-family: Montserrat;
+          font-size: 18px;
+          line-height: 21.94px;
+          font-style: normal;
+          font-weight: 700;
+          text-decoration: none;
+          color: #ffffff;
+          margin-top: 46px;
+          text-transform: capitalize;
+        }
+      }
+
+      div#card2 {
+        width: 65%;
+        > div {
+          display: flex;
+          align-items: flex-end;
+          justify-content: flex-end;
+
+          > img {
+            width: 100%;
+          }
+
+          article {
+            width: 400px;
+            height: 185px;
+            padding: 25px;
+            overflow: hidden;
+            background: #181719;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            position: absolute;
+            margin-right: 50px;
+
+            h3 {
+              font-family: Lora;
+              font-weight: bold;
+              font-size: 24px;
+              line-height: 31px;
+              font-style: normal;
+              color: #ffffff;
+            }
+
+            > div {
+              display: flex;
+              align-items: center;
+              justify-content: flex-start;
+
+              img {
+                width: 65px;
+                border-radius: 50%;
+                margin-right: 20px;
+              }
+
+              > div {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                strong {
+                  color: #ffffff;
+                  font-size: 14px;
+                  line-height: 17px;
+                  font-weight: 500;
+                  margin-bottom: 10px;
+                }
+
+                span {
+                  color: #828282;
+                  font-size: 12px;
+                  line-height: 15px;
+                  font-weight: 500;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  footer.main-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      font-family: Montserrat;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 14px;
+      color: #a9a9a9;
+    }
+  }
+}
