@@ -43,6 +43,7 @@ div#root header.main-header h4 {
   line-height: 15.56px;
   font-family: "Crimson Pro";
   text-transform: uppercase;
+  /* white-space: nowrap; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -181,6 +182,7 @@ div#root main.main-main section.main-section div#card2 > div article {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   position: absolute;
   margin-right: 50px;
+  margin-bottom: -60px;
 }
 
 div#root main.main-main section.main-section div#card2 > div article h3 {
@@ -256,5 +258,26 @@ div#root footer.main-footer p {
   font-style: normal;
   font-size: 14px;
   color: #a9a9a9;
+}
+
+@media screen and (max-width: 1024px) {
+  main.main-main {
+    width: 100%;
+  }
+  main.main-main section.main-section {
+    width: 100%;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main.main-main section.main-section div#card1 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
