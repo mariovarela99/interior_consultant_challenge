@@ -259,25 +259,4 @@ div#root footer.main-footer p {
   font-size: 14px;
   color: #a9a9a9;
 }
-
-@media screen and (max-width: 1024px) {
-  main.main-main {
-    width: 100%;
-  }
-  main.main-main section.main-section {
-    width: 100%;
-    padding: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  main.main-main section.main-section div#card1 {
-    width: 100%;
-    margin-bottom: 50px;
-  }
-}
 /*# sourceMappingURL=styles.css.map */
